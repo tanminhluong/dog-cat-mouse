@@ -1,7 +1,7 @@
-function Mouse(){
-	this.name = "jerry"
-	this.age = 10
+function Mouse(name,age){
+	this.name = name
+	this.age = age
 }
-var m1 = new Mouse();
-m1.age = 9;
+var m1 = new Mouse("jerry",10);
+
 console.log(m1.age,m1.name);
