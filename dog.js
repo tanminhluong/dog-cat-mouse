@@ -16,3 +16,4 @@ Dog.prototype.sayHi = function(){
 	console.log('my name is ' + chalk.blue(this.name));
 }
 d1.sayHi();
+module.exports = Dog;
