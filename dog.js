@@ -9,11 +9,11 @@ Dog.prototype.eat = function(cat){
 Dog.prototype.bark = function(){
 		console.log("gogogogogog");
 }
-var d1 = new Dog("pull");
-var d2 = new Dog("lucky");
-d1.bark();
+// var d1 = new Dog("pull");
+// var d2 = new Dog("lucky");
+// d1.bark();
 Dog.prototype.sayHi = function(){
 	console.log('my name is ' + chalk.blue(this.name));
 }
-d1.sayHi();
+// d1.sayHi();
 module.exports = Dog;
